@@ -1,0 +1,768 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Chirag The Barber</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+    href="{% static 'css/style.css' %}">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+    
+    
+    <!-- ========================= -->
+<!-- WEBSITE LOADER -->
+<!-- ========================= -->
+
+<div class="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-circle"></div>
+
+        <h2>
+
+            Chirag The Barber
+
+        </h2>
+
+        <p>
+
+            Premium Grooming Experience
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- NAVBAR -->
+<!-- ========================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        Chirag The Barber
+
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#booking">Booking</a>
+
+        <a href="#cancel">Cancel</a>
+
+        <a href="#owner-login">
+
+            <i class="fa-solid fa-gear"></i>
+
+        </a>
+
+    </nav>
+
+</header>
+
+<!-- ========================= -->
+<!-- HERO SECTION -->
+<!-- ========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay">
+
+        <h1>
+
+            Premium Men's Grooming Services
+
+        </h1>
+
+        <p>
+
+            Luxury Haircuts • Beard • Facial • Styling
+
+        </p>
+
+        <a href="#booking"
+        class="hero-btn">
+
+            Book Appointment
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SERVICES -->
+<!-- ========================= -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+
+        <h2>Our Premium Services</h2>
+
+        <p>
+
+            Professional Grooming Experience
+
+        </p>
+
+    </div>
+
+    <div class="services-container">
+
+        <!-- 1 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/haircut.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Hair Cutting + Hair Wash + Styling </h3>
+
+                <p>₹400</p>
+
+            </div>
+
+        </div>
+
+        <!-- 2 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/beard.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Beard Trimming</h3>
+
+                <p>₹200</p>
+
+            </div>
+
+        </div>
+
+        <!-- 3 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/keratine.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Keratine Treatment</h3>
+
+                <p>₹2500</p>
+
+            </div>
+
+        </div>
+
+        <!-- 4 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/curly.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Curly Hair Treatment</h3>
+
+                <p>₹3000</p>
+
+            </div>
+
+        </div>
+
+        <!-- 5 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/basicfacial.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Basic Facial</h3>
+
+                <p>₹1300</p>
+
+            </div>
+
+        </div>
+
+        <!-- 6 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/premiumfacial.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Premium Facial</h3>
+
+                <p>₹1700</p>
+
+            </div>
+
+        </div>
+
+        <!-- 7 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/advancefacial.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Advance Facial</h3>
+
+                <p>₹2200</p>
+
+            </div>
+
+        </div>
+
+        <!-- 8 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/manicure.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Manicure</h3>
+
+                <p>₹1000</p>
+
+            </div>
+
+        </div>
+
+        <!-- 9 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/pedicure.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Pedicure</h3>
+
+                <p>₹2000</p>
+
+            </div>
+
+        </div>
+
+        <!-- 10 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/mani-pedi.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Manicure + Pedicure</h3>
+
+                <p>₹2500</p>
+
+            </div>
+
+        </div>
+
+        <!-- 11 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/spa.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Permanent Spa</h3>
+
+                <p>₹1500</p>
+
+            </div>
+
+        </div>
+
+        <!-- 12 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/ddspa.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>D&D Hair Spa</h3>
+
+                <p>₹800</p>
+
+            </div>
+
+        </div>
+
+        <!-- 13 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/haircolor.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Professional Hair Color</h3>
+
+                <p>₹500</p>
+
+            </div>
+
+        </div>
+
+        <!-- 14 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/hairstyle.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Hair Styling</h3>
+
+                <p>₹200</p>
+
+            </div>
+
+        </div>
+
+        <!-- 15 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/groombasic.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Groom Makeup Basic</h3>
+
+                <p>₹2000</p>
+
+            </div>
+
+        </div>
+
+        <!-- 16 -->
+        <div class="service-card">
+
+            <img src="{% static 'images/groompremium.jpg' %}">
+
+            <div class="service-content">
+
+                <h3>Groom Makeup Premium</h3>
+
+                <p>₹3500</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================= -->
+<!-- GALLERY -->
+<!-- ========================= -->
+
+<section class="gallery-section">
+
+    <div class="section-title">
+
+        <h2>Our Salon Gallery</h2>
+
+        <p>
+
+            Professional Luxury Grooming Experience
+
+        </p>
+
+    </div>
+
+    <div class="gallery-container">
+
+        <img src="{% static 'images/gallery1.jpg' %}">
+        <img src="{% static 'images/gallery2.jpg' %}">
+        <img src="{% static 'images/gallery3.jpg' %}">
+        <img src="{% static 'images/gallery4.jpg' %}">
+        <img src="{% static 'images/gallery5.jpg' %}">
+        <img src="{% static 'images/gallery6.jpg' %}">
+
+    </div>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- BOOKING -->
+<!-- ========================= -->
+
+<section class="booking-section"
+id="booking">
+
+    <div class="section-title">
+
+        <h2>Book Appointment</h2>
+
+    </div>
+
+    <form class="booking-form"
+    id="bookingForm">
+
+        <label>Select Date</label>
+
+        <input type="date"
+        id="booking-date"
+        required>
+
+        <label>Client Name</label>
+
+        <input type="text"
+        id="client-name"
+        placeholder="Enter Name"
+        required>
+
+        <label>Phone Number</label>
+
+        <input type="tel"
+        id="client-phone"
+        placeholder="Enter Phone Number"
+        required>
+
+        <label>Select Services</label>
+
+        <div class="checkbox-group">
+
+            <label><input type="checkbox"> Hair Cutting ₹400</label>
+            <label><input type="checkbox"> Beard Trimming ₹200</label>
+            <label><input type="checkbox"> Keratine Treatment ₹2500</label>
+            <label><input type="checkbox"> Curly Hair Treatment ₹3000</label>
+            <label><input type="checkbox"> Basic Facial ₹1300</label>
+            <label><input type="checkbox"> Premium Facial ₹1700</label>
+            <label><input type="checkbox"> Advance Facial ₹2200</label>
+            <label><input type="checkbox"> Manicure ₹1000</label>
+            <label><input type="checkbox"> Pedicure ₹2000</label>
+            <label><input type="checkbox"> Manicure + Pedicure ₹2500</label>
+            <label><input type="checkbox"> Permanent Spa ₹1500</label>
+            <label><input type="checkbox"> D&D Hair Spa ₹800</label>
+            <label><input type="checkbox"> Hair Color ₹500</label>
+            <label><input type="checkbox"> Hair Styling ₹200</label>
+            <label><input type="checkbox"> Groom Makeup Basic ₹2000</label>
+            <label><input type="checkbox"> Groom Makeup Premium ₹3500</label>
+
+        </div>
+
+        <label>Select Time Slot</label>
+
+        <select id="time-slot">
+
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>1:00 PM</option>
+            <option>3:00 PM</option>
+            <option>4:00 PM</option>
+            <option>5:00 PM</option>
+            <option>6:00 PM</option>
+            <option>7:00 PM</option>
+
+        </select>
+
+        <button type="submit">
+
+            Confirm Booking
+
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ========================= -->
+<!-- CANCEL -->
+<!-- ========================= -->
+
+<section class="cancel-section"
+id="cancel">
+
+    <div class="section-title">
+
+        <h2>Cancel Booking</h2>
+
+    </div>
+
+    <form class="cancel-form"
+    id="cancelForm">
+
+        <input type="text"
+        placeholder="Client Name"
+        required>
+
+        <input type="tel"
+        placeholder="Phone Number"
+        required>
+
+        <button type="submit">
+
+            Cancel Booking
+
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ========================= -->
+<!-- OWNER LOGIN -->
+<!-- ========================= -->
+
+<section class="owner-login"
+id="owner-login">
+
+    <div class="section-title">
+
+        <h2>Owner Login</h2>
+
+    </div>
+
+    <form class="login-form"
+    id="loginForm">
+
+        <input type="text"
+        placeholder="Username"
+        required>
+
+        <input type="password"
+        placeholder="Password"
+        required>
+
+        <button type="submit">
+
+            Login
+
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ========================= -->
+<!-- DASHBOARD -->
+<!-- ========================= -->
+
+<section class="dashboard"
+id="dashboard"
+style="display:none;">
+
+    <div class="dashboard-header">
+
+        <h2>
+
+            Chirag The Barber - Owner Dashboard
+
+        </h2>
+
+        <p>
+
+            Management & Booking Control Panel
+
+        </p>
+
+    </div>
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+
+            <h3>Total Bookings</h3>
+
+            <p>0</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h3>Total Revenue</h3>
+
+            <p>₹0</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h3>Tomorrow Bookings</h3>
+
+            <p>0</p>
+
+        </div>
+
+    </div>
+
+    <div class="close-salon-box">
+
+        <h3>Close Salon Date</h3>
+
+        <input type="date">
+
+        <button>
+
+            Close Salon
+
+        </button>
+
+    </div>
+
+    <div class="bookings-list">
+
+        <h3>All Bookings</h3>
+
+    </div>
+
+    <button class="logout-btn">
+
+        Logout
+
+    </button>
+
+</section>
+
+<!-- ========================= -->
+<!-- CUSTOMER REVIEWS -->
+<!-- ========================= -->
+
+<section class="review-section">
+
+    <div class="section-title">
+
+        <h2>Customer Reviews</h2>
+
+        <p>
+
+            Share Your Experience
+
+        </p>
+
+    </div>
+
+    <!-- REVIEW FORM -->
+
+    <form id="reviewForm" class="review-form">
+
+        <input type="text"
+        id="review-name"
+        placeholder="Your Name"
+        required>
+
+        <select id="review-rating" required>
+
+            <option value="">
+            Select Rating
+            </option>
+
+            <option>⭐ 1</option>
+            <option>⭐ 2</option>
+            <option>⭐ 3</option>
+            <option>⭐ 4</option>
+            <option>⭐ 5</option>
+
+        </select>
+
+        <textarea
+        id="review-text"
+        placeholder="Write Your Review..."
+        required></textarea>
+
+        <button type="submit">
+
+            Submit Review
+
+        </button>
+
+    </form>
+
+    <!-- REVIEW LIST -->
+
+    <div id="reviewList"
+    class="review-list"></div>
+
+</section>
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <h2>Chirag The Barber</h2>
+
+    <p>
+
+        Premium Men's Grooming Services
+
+    </p>
+
+    <a href="https://instagram.com/chirag_the_barber"
+    target="_blank">
+
+        <i class="fa-brands fa-instagram"></i>
+
+        chirag_the_barber
+
+    </a>
+
+</footer>
+
+<!-- JS -->
+<!-- ========================= -->
+<!-- POPUP NOTIFICATION -->
+<!-- ========================= -->
+
+<div id="popup" class="popup">
+
+    <span id="popup-message">
+
+        Notification
+
+    </span>
+
+</div>
+
+<!-- JS -->
+<script src="{% static 'js/script.js' %}"></script>
+<!-- ========================= -->
+<!-- WHATSAPP BUTTON -->
+<!-- ========================= -->
+
+<a href="https://wa.me/919537531732"
+class="whatsapp-float"
+target="_blank">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+<!-- ========================= -->
+<!-- WHATSAPP BUTTON -->
+<!-- ========================= -->
+
+<a href="https://wa.me/919537531732"
+class="whatsapp-btn"
+target="_blank">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+</body>
+</html>
